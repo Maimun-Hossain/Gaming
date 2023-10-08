@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav a.active {
+  color: rgb(194, 61, 228);
+  text-shadow: 10px 10px 5px 5px rgb(209, 209, 209);
+  box-shadow: 0px 0px 5px 5px #5204f5;
+  border-radius: 100px 50px;
+}
+#nav a {
+  color: rgb(194, 61, 228);
+  border-radius: 100px 50px;
+}
+#nav.hover:hover {
+  color: rgb(194, 61, 228);
+  text-shadow: 10px 10px 5px 5px rgb(209, 209, 209);
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px #5204f5;
+  border-radius: 100px 50px;
+}
+
+#banner-id {
+    border-radius: 100px 50px;
+}
+
+#banner-img {
+    border-radius: 100px 50px;
+    box-shadow: 0px 0px 10px 5px #5204f5;
+    border: 2px solid tomato;
+}
+
+#banner-img.hover:hover {
+    box-shadow: 0px 0px 10px 5px #ed04f5;
+    border: 2px solid rgb(245, 239, 238);
+}
+
+
+.link-with-bg-image {
+    display: inline-block;
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url('https://i.ibb.co/V25cDhy/20048842-31466102898817.jpg');
+  }
+  
